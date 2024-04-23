@@ -1,0 +1,91 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "buenas"
+            ],
+            "responses": [
+                "Hola, ¿cómo puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adios",
+                "nos vemos",
+                "hasta luego",
+                "hasta pronto",
+                "chao",
+                "bye"
+            ],
+            "responses": [
+                "¡Hasta luego! Que tengas un buen día.",
+                "Nos vemos. ¡Que tengas un buen día!",
+                "¡Adiós! Si necesitas ayuda en el futuro, no dudes en volver.",
+                "Hasta pronto. ¡Cuídate!",
+                "Chao. ¡Que tengas un excelente día!",
+                "Bye. ¡Hasta la próxima!"
+            ]
+        },
+        {
+            "tag": "reportar_fuga",
+            "patterns": [
+                "reportar fuga de agua",
+                "hay una fuga de agua",
+                "fuga en la calle"
+            ],
+            "responses": [
+                "Gracias por informarnos sobre la fuga de agua. Enviaremos a alguien para solucionar el problema lo antes posible."
+            ]
+        },
+        {
+            "tag": "solicitar_reconexion",
+            "patterns": [
+                "solicitar reconexión del servicio",
+                "reconectar agua",
+                "mi servicio fue suspendido"
+            ],
+            "responses": [
+                "Por favor proporcione su dirección y detalles de contacto para programar la reconexión del servicio de agua."
+            ]
+        },
+        {
+            "tag": "consultar_estado_cuenta",
+            "patterns": [
+                "consultar estado de cuenta",
+                "saldo pendiente de agua",
+                "factura de agua"
+            ],
+            "responses": [
+                "Puede consultar su estado de cuenta y factura de agua en línea a través de nuestro portal de clientes. ¿Necesita ayuda para acceder?"
+            ]
+        },
+        {
+            "tag": "informar_falta_agua",
+            "patterns": [
+                "informar falta de agua",
+                "no hay agua en mi vecindario",
+                "por qué no hay agua"
+            ],
+            "responses": [
+                "Lamentamos la interrupción del suministro de agua. Estamos investigando la causa y trabajando para resolverlo lo más rápido posible."
+            ]
+        },
+        {
+            "tag": "actualizar_info_contacto",
+            "patterns": [
+                "actualizar información de contacto",
+                "cambiar número de teléfono",
+                "cambiar dirección de correo electrónico"
+            ],
+            "responses": [
+                "Por favor proporcione su nueva información de contacto para actualizar nuestros registros."
+            ]
+        }
+    ]
+}
